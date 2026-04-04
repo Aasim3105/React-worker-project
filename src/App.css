@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  min-width: 100vw;
+  min-height: 100vh;
+  background: #44444465;
+  object-fit: cover;
+overflow-x: hidden ;
+overflow-y: scroll;
+
+}
+.parent{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 28px 0px;
+}
+.parent .card{
+  width: 330px;
+  height: 380px;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+/* TOP PART */
+.parent .card .top-part{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.parent .card .top-part img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: #75757597 solid 1px;
+}
+.parent .card .top-part button{
+  padding: 8px 12px;
+  background-color: #f8f9fa61;
+  color: #44444465;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  border:#757575b4 solid 1px;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  box-shadow:2px 3px inset rgba(0, 0, 0, 0.1);
+}
+.parent .card .top-part button:hover{
+  background-color: #f8f9fa;
+  color: #444444;
+}
+/* END TOP PART */
+
+/* CENTER PART */
+.parent .card .center-part{
+  margin-top: 22px;
+}
+
+.center-part h2 {
+  font-size: 25px;
+  text-align: start;
+}
+.center-part div {
+  display: flex;
+  gap: 10px;
+}
+
+.center-part div h4 {
+  font-size: 13px;
+  color: #111;
+  border-radius: 5px;
+  padding: 4px 6px;
+  background-color: #f3efeff5;
+}
+.center-part h3 {
+  text-align: start;
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+}
+.center-part span {
+  font-size: 14px;
+  color: #3333338f;
+  font-weight: 400;
+
+}
+/* END CENTER PART */
+
+/* BOTTOM PART */
+.parent .card .buttom-part{
+  padding-top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top:#98959527 solid 2px ;
+}
+.parent .card .buttom-part div h3{
+  font-size: 18px;
+  color: #333;
+  font-weight: 700;
+}
+.parent .card .buttom-part div p{
+  font-size: 14px;
+  color: #6666667d;
+}
+.parent .card .buttom-part button{
+  padding: 10px 15px;
+  background-color: #111111;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border:#757575b4 solid 1px;
+}
+.card .buttom-part button:active {
+  scale: 0.98;
+  box-shadow: 4px 3px inset rgba(227, 223, 223, 0.22);
+}
+/* END BOTTOM PART */
+
+
